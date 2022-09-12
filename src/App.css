@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,72 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.header{
+  font-family: inherit;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14.4608px;
+   letter-spacing: 0.075em;
+   background-color: #f00;
+   color: #FFFFFF;
+   text-align: center;
+   padding-bottom: 10px;
+}
+.container{
+  display: flex;
+  border: 7px solid ;
+  color: #2B283A;
+}
+
+.images > img{
+  width: 200px;
+  height: 15rem;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 25px;
+  }
+  .container-2 {
+    
+  
+  }
+  .App{
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    width: 550px;
+    height: 704px;
+   margin: 100px auto;
+  }
+.located{
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: -40px;
+  
+}
+.located > p {
+  padding-top: 30px;
+  padding-left: 10px;
+}
+.located > i{
+  padding-top: 47px;
+  font-size: 1rem;
+  color: #f00;
+}
+h1 {
+  margin-bottom: 10px;
+}
+.dates{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+line-height: 12px;
+color: #2B283A;
+}
+.container-2 > {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  color: #2B283A;
 }

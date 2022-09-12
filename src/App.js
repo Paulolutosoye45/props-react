@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Tarvel from './components/Tarvel';
+import TravelData from './components/TravelData';
+import Journal from './components/Journal';
 
 function App() {
+   let display = TravelData.map(data => {
+    return <Tarvel 
+    coverImg    = {data.coverImg}
+      location =  {data.location}
+      title =     {data.title}
+      startDate = {data.startDate}
+      endDate =   {data.endDate}
+    description =  {data.description}
+
+          />
+   })
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div>
+          <Journal />
+         {display}
+        </div>
     </div>
   );
 }

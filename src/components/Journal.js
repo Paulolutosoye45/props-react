@@ -3,7 +3,7 @@ import React from 'react'
 function Journal() {
   return (
     <div>
-         <div className='header'>
+         <div  className='header'>
          <i class="fa-solid fa-earth-americas"></i>
             <p>MyTraveljournal</p>
           </div>

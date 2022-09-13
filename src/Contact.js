@@ -1,11 +1,10 @@
 import React from 'react'
 
-function Contact(props) {
+function Contact() {
+   
   return (
     <div className='card'>
-            <h1>{props.name}</h1>
-            <p>{props.phone}</p>
-            <h3>{props.email}</h3>
+        
     </div>
   )
 }

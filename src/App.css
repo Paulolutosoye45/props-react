@@ -43,7 +43,7 @@
    font-weight: 500;
    font-size: 14.4608px;
    letter-spacing: 0.075em;
-   background-color: #f00;
+   background : linear-gradient(90deg, #f00 1.18%, pink 100%);
    color: #FFFFFF;
    text-align: center;
    padding-bottom: 10px;
